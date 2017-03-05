@@ -62,8 +62,15 @@
 
 <body>
 
+<div class="content">
+
+    <h1>The Tasks:</h1>
+    @foreach($tasks as $task)
+        <h4><a href="/todos/{{$task->id}}">{{$task->title}}</a></h4>
+    @endforeach
 
 
+</div>
 
 </body>
 </html>

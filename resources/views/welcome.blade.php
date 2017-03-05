@@ -81,8 +81,15 @@
 
     <div class="content">
         <div class="title m-b-md">
-            Laravel
+            Hello
+
         </div>
+
+        <ul>
+            @foreach($tasks as $task)
+                <li> {{ $task->title }}</li>
+            @endforeach
+        </ul>
 
         <div class="links">
             <a href="https://laravel.com/docs">Documentation</a>

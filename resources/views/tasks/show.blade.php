@@ -62,8 +62,11 @@
 
 <body>
 
+<div class="content">
 
+    <h1>Task: {{$task->title}}</h1>
 
+</div>
 
 </body>
 </html>
